@@ -120,6 +120,10 @@ input::placeholder {
     font-size: 20px;
 }
 
+#error {
+    font-size: 30px;
+}
+
 #font {
     font-size: 13px;
 }
