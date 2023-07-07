@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PokedexAPI.Models;
 using System.Diagnostics;
+using PokedexAPI.Models;
 
 namespace PokedexAPI.Controllers
 {
@@ -14,11 +15,6 @@ namespace PokedexAPI.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

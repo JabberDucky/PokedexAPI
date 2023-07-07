@@ -1,22 +1,125 @@
 html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 8px;
+}
+
+#box {
+    border-style: double;
+    border-width: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    margin-right: 365px;
+    width: 550px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 40px;
+}
+
+#oak {
+    margin-right: 50px;
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+}
+
+body {
+    background-color: lightsteelblue;
+    background-image: url("");
+    font-family: 'Silkscreen', cursive;
+    font-size: 13px
+}
+
+header {
+    background-color: lightcoral;
+}
+
+.footer {
+    font-family: 'Silkscreen', cursive;
+    font-size: 10px;
+}
+
+.flex {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 300px;
+    left: 971px;
+}
+
+
+input {
+    width: 161px;
+    height: 80px;
+    margin: 4px 2px;
+    background-color: #312f2f;
+    border: none;
+    font-size: 20px;
+    height: 80px;
+    color:white;
+
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.button {
+    position: fixed;
+    background-color: #312f2f;
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    left: 1135px;
+    top: 300px
+}
+
+#search{
+    position: fixed;
+   
+}
+
+#pokebox {
+    position: fixed;
+    top: 320px;
+    left: 572px;
+    padding: 5px;
+    background-color: #312f2f;
+    border: none;
+    width: 249px;
+    height: 228px;
+    color: white;
+    
+}
+
+#pokedex{
+    left: 500px;
+    position:fixed;
+}
+
+#title {
+    font-size: 20px;
+}
+
+#font {
+    font-size: 13px;
 }

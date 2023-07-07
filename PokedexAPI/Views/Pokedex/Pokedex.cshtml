@@ -1,0 +1,19 @@
+﻿@model PokedexAPI.Models.Pokemon.Root
+<center>
+	<p>Look a pokedex!</p>
+
+	<img src="~/images/pokedexJD.png" id="pokedex" width="800px;" />
+	<div id="search">
+		<img src="~/images/pokedexJD.png" id="pokedex" width="800px;" />
+
+		<form asp-action="GetPoke" asp-controller="Pokedex" method="post">
+			<div class="flex">
+				<div class="input-group">
+					<input asp-for="name" placeholder="Pokemon Name" />
+					<button class="button">Search</button>
+				</div>
+
+			</div>
+		</form>
+		
+</center>

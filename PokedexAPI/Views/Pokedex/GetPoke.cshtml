@@ -1,0 +1,46 @@
+﻿@model PokedexAPI.Models.Pokemon.Root
+
+<center>
+	<p>Look a pokedex!</p>
+
+	
+
+<img src="~/images/pokedexJD.png" id="pokedex" width="800px;"/>
+	<div id="search">
+		<form asp-action="GetPoke" asp-controller="Pokedex" method="post">
+			<div class="flex">
+				<div class="input-group">
+					<input asp-for="name" placeholder="Pokemon Name"/>
+					<button class="button">Search</button>
+				</div>
+
+			</div>
+		</form>
+<div id="pokebox">
+	<div id="title">@Model.name #@Model.order</div>
+	<img src="@Model.sprites.front_default" /><br />
+			<div id="font">Weight: @Model.weight lbs Height: @Model.height'<br />
+				Abilities: 
+				@if (Model.abilities.Count == 1)
+				{
+					@Model.abilities[0].ability.name 
+				}
+				else 
+				{
+					@string.Format("{0}, {1}", Model.abilities[0].ability.name, Model.abilities[1].ability.name)
+				}
+				<br />
+				Type: 
+				@if (Model.types.Count == 1)
+				{
+					@Model.types[0].type.name
+				}
+				else
+				{
+					@string.Format("{0}, {1}", Model.types[0].type.name, Model.types[1].type.name)
+				}
+			</div>
+
+		</div>
+</div>
+</center>
