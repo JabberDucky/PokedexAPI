@@ -14,9 +14,9 @@ To use this API, use the follwing steps:
 ## Using the MVC
 Once the program is running on your localhost you'll want to do the following to access the pokemon API.
 
-1. **CLick Pokedex**: It is located in the top left corner of the page.
-2. **Inside of the Pokedex**: On the right handside you will type a pokemon man within the text box and then click search. 
-3. **Pokemon**: Should appear on the left hand side with an image and information about that pokemon.
+1. **Click Pokedex**: It is located in the top left corner of the page.
+2. **Inside of the Pokedex**: On the right-hand side you will type a pokemon within the text box and then click search. 
+3. **Pokemon**: Should appear on the left-hand side with an image and information about that pokemon.
 
 ## Conclusion
 Thank you for running and experiencing my code! I hope you enjoyed it!
